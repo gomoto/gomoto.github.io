@@ -214,7 +214,7 @@ section {
   margin-bottom: 16px;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 350px) {
   /* line 111, ../scss/main.scss */
   .skill-group {
     width: 50%;
