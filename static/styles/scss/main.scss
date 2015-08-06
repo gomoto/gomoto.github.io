@@ -106,26 +106,18 @@ section {
     margin-bottom: $space;
 }
 
-@media (min-width: 340px) {
+@media (min-width: 380px) {
+    //Align skill-groups in a grid, two per row.
     .skill-group {
-        //Align skill-groups in a grid,
-        //with two groups per row.
-        &:nth-child(odd) {
-            width: 60%;
-        }
-        &:nth-child(even) {
-            width: 40%;
-        }
+        width: 50%;
     }
 }
 
 @media (min-width: 510px) {
+    //Undo alignment of skill-groups.
     .skill-group {
         padding-right: 4 / 3 * $page-margin;
-        //Undo alignment of skill-groups.
-        &:nth-child(n) {
-            width: auto;
-        }
+        width: auto;
     }
 }
 

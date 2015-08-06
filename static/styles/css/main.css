@@ -214,23 +214,16 @@ section {
   margin-bottom: 16px;
 }
 
-@media (min-width: 340px) {
-  /* line 113, ../scss/main.scss */
-  .skill-group:nth-child(odd) {
-    width: 60%;
-  }
-  /* line 116, ../scss/main.scss */
-  .skill-group:nth-child(even) {
-    width: 40%;
+@media (min-width: 380px) {
+  /* line 111, ../scss/main.scss */
+  .skill-group {
+    width: 50%;
   }
 }
 @media (min-width: 510px) {
-  /* line 123, ../scss/main.scss */
+  /* line 118, ../scss/main.scss */
   .skill-group {
     padding-right: 32px;
-  }
-  /* line 126, ../scss/main.scss */
-  .skill-group:nth-child(n) {
     width: auto;
   }
 }
