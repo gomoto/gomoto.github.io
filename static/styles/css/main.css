@@ -160,7 +160,7 @@ p {
 
 /* line 62, ../scss/main.scss */
 #cv {
-  padding: 0 24px;
+  padding: 0 24px 24px;
   max-height: 1000000px;
   max-width: 652px;
   margin: 0 auto;

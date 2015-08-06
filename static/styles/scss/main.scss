@@ -60,7 +60,7 @@ p {
 
 
 #cv {
-    padding: 0 $page-margin;
+    padding: 0 $page-margin $page-margin;
 
     //Disable font boosting on Chrome for Android
     //See stackoverflow.com/questions/11694767
