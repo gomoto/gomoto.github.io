@@ -1,0 +1,236 @@
+/* line 5, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: Franklin;
+  src: url("/static/fonts/franklin-book.eot");
+  src: url("/static/fonts/franklin-book.eot?#iefix") format("embedded-opentype"), url("/static/fonts/franklin-book.woff") format("woff"), url("/static/fonts/franklin-book.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Franklin;
+  src: url("/static/fonts/franklin-book-italic.eot");
+  src: url("/static/fonts/franklin-book-italic.eot?#iefix") format("embedded-opentype"), url("/static/fonts/franklin-book-italic.woff") format("woff"), url("/static/fonts/franklin-book-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Franklin;
+  src: url("/static/fonts/franklin-medium.eot");
+  src: url("/static/fonts/franklin-medium.eot?#iefix") format("embedded-opentype"), url("/static/fonts/franklin-medium.woff") format("woff"), url("/static/fonts/franklin-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Franklin;
+  src: url("/static/fonts/franklin-medium-italic.eot");
+  src: url("/static/fonts/franklin-medium-italic.eot?#iefix") format("embedded-opentype"), url("/static/fonts/franklin-medium-italic.woff") format("woff"), url("/static/fonts/franklin-medium-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Franklin-Condensed;
+  src: url("/static/fonts/franklin-book-condensed.eot");
+  src: url("/static/fonts/franklin-book-condensed.eot?#iefix") format("embedded-opentype"), url("/static/fonts/franklin-book-condensed.woff") format("woff"), url("/static/fonts/franklin-book-condensed.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Franklin-Condensed;
+  src: url("/static/fonts/franklin-medium-condensed.eot");
+  src: url("/static/fonts/franklin-medium-condensed.eot?#iefix") format("embedded-opentype"), url("/static/fonts/franklin-medium-condensed.woff") format("woff"), url("/static/fonts/franklin-medium-condensed.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+/* line 12, ../scss/main.scss */
+body {
+  font-family: Franklin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+}
+
+/* line 21, ../scss/main.scss */
+h1 {
+  font-family: Franklin-Condensed;
+  font-size: 2.125em;
+  line-height: 1.17647;
+  font-weight: 500;
+}
+
+/* line 28, ../scss/main.scss */
+h2 {
+  font-family: Franklin-Condensed;
+  font-size: 1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* line 36, ../scss/main.scss */
+h3 {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #0D47A1;
+}
+
+/* line 42, ../scss/main.scss */
+h4 {
+  font-size: 0.875em;
+  line-height: 1.42857;
+  font-weight: 500;
+}
+
+/* line 48, ../scss/main.scss */
+h5 {
+  font-size: 0.875em;
+  line-height: 1.42857;
+}
+
+/* line 53, ../scss/main.scss */
+p {
+  font-size: 0.875em;
+  line-height: 1.42857;
+}
+
+/* line 59, ../scss/main.scss */
+#cv {
+  box-sizing: border-box;
+  padding: 0 24px;
+  max-height: 1000000px;
+  max-width: 764px;
+  margin: 0 auto;
+}
+
+/* line 72, ../scss/main.scss */
+header {
+  margin-top: 16px;
+  margin-bottom: -1.25em;
+}
+
+/* line 77, ../scss/main.scss */
+.divider {
+  box-sizing: border-box;
+  height: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* line 84, ../scss/main.scss */
+.date {
+  text-align: right;
+}
+
+/* line 88, ../scss/main.scss */
+section {
+  margin-top: 48px;
+}
+
+/* line 92, ../scss/main.scss */
+.item {
+  *zoom: 1;
+  margin-top: 16px;
+}
+/* line 38, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+.item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 98, ../scss/main.scss */
+.item em {
+  font-style: italic;
+}
+
+/* line 103, ../scss/main.scss */
+.skill-group {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 340px) {
+  /* line 113, ../scss/main.scss */
+  .skill-group:nth-child(odd) {
+    width: 60%;
+  }
+  /* line 116, ../scss/main.scss */
+  .skill-group:nth-child(even) {
+    width: 40%;
+  }
+}
+@media (min-width: 510px) {
+  /* line 123, ../scss/main.scss */
+  .skill-group {
+    padding-right: 32px;
+  }
+  /* line 126, ../scss/main.scss */
+  .skill-group:nth-child(n) {
+    width: auto;
+  }
+}

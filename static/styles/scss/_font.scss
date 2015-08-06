@@ -1,0 +1,21 @@
+//Based on Material Design Typography
+
+$font-size-base: 16px; //set on body
+
+//Font sizes
+//See www.google.com/design/spec/style/typography.html#typography-styles
+$font-size-small: 0.875em;  //14px
+$font-size-medium: 1em;     //16px
+$font-size-large: 1.5em;    //24px
+$font-size-xlarge: 2.125em; //34px
+
+//Line heights relative to font sizes
+//See www.google.com/design/spec/style/typography.html#typography-line-height
+$line-height-small: 20 / 14;
+$line-height-medium: 24 / 16;
+$line-height-large: 32 / 24;
+$line-height-xlarge: 40 / 34;
+
+//Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
