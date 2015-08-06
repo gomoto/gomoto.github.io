@@ -105,7 +105,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-style: normal;
   font-weight: 500;
 }
-/* line 12, ../scss/main.scss */
+/* line 15, ../scss/main.scss */
 body {
   font-family: Franklin;
   font-size: 16px;
@@ -115,7 +115,7 @@ body {
   background-color: #ffffff;
 }
 
-/* line 21, ../scss/main.scss */
+/* line 24, ../scss/main.scss */
 h1 {
   font-family: Franklin-Condensed;
   font-size: 2.125em;
@@ -123,7 +123,7 @@ h1 {
   font-weight: 500;
 }
 
-/* line 28, ../scss/main.scss */
+/* line 31, ../scss/main.scss */
 h2 {
   font-family: Franklin-Condensed;
   font-size: 1em;
@@ -132,48 +132,47 @@ h2 {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 36, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 h3 {
   font-size: 1em;
   line-height: 1.5;
   color: #0D47A1;
 }
 
-/* line 42, ../scss/main.scss */
+/* line 45, ../scss/main.scss */
 h4 {
   font-size: 0.875em;
   line-height: 1.42857;
   font-weight: 500;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 h5 {
   font-size: 0.875em;
   line-height: 1.42857;
 }
 
-/* line 53, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 p {
   font-size: 0.875em;
   line-height: 1.42857;
 }
 
-/* line 59, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 #cv {
-  box-sizing: border-box;
   padding: 0 24px;
   max-height: 1000000px;
-  max-width: 764px;
+  max-width: 652px;
   margin: 0 auto;
 }
 
-/* line 72, ../scss/main.scss */
+/* line 74, ../scss/main.scss */
 header {
   margin-top: 16px;
   margin-bottom: -1.25em;
 }
 
-/* line 77, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .divider {
   box-sizing: border-box;
   height: 8px;
@@ -181,17 +180,17 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-/* line 84, ../scss/main.scss */
+/* line 86, ../scss/main.scss */
 .date {
   text-align: right;
 }
 
-/* line 88, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 section {
   margin-top: 48px;
 }
 
-/* line 92, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .item {
   *zoom: 1;
   margin-top: 16px;
@@ -202,12 +201,12 @@ section {
   display: table;
   clear: both;
 }
-/* line 98, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .item em {
   font-style: italic;
 }
 
-/* line 103, ../scss/main.scss */
+/* line 105, ../scss/main.scss */
 .skill-group {
   float: left;
   width: 100%;
@@ -215,15 +214,29 @@ section {
 }
 
 @media (min-width: 350px) {
-  /* line 111, ../scss/main.scss */
+  /* line 113, ../scss/main.scss */
   .skill-group {
     width: 50%;
   }
 }
 @media (min-width: 510px) {
-  /* line 118, ../scss/main.scss */
+  /* line 120, ../scss/main.scss */
   .skill-group {
-    padding-right: 32px;
     width: auto;
+  }
+  /* line 122, ../scss/main.scss */
+  .skill-group:not(:last-child) {
+    padding-right: 32px;
+  }
+}
+@media (min-width: 700px) {
+  /* line 129, ../scss/main.scss */
+  h2 {
+    float: left;
+  }
+
+  /* line 132, ../scss/main.scss */
+  .item {
+    margin-left: 112px;
   }
 }

@@ -6,8 +6,11 @@
 @import 'fonts/franklin';
 
 $space: 16px;
-$page-width: 764px;
+$print-width: 764px;
+$print-margin: 56px;
+$page-width: $print-width - 2 * $print-margin;
 $page-margin: 24px;
+
 
 body {
     font-family: Franklin;
@@ -57,7 +60,6 @@ p {
 
 
 #cv {
-    box-sizing: border-box;
     padding: 0 $page-margin;
 
     //Disable font boosting on Chrome for Android
@@ -116,8 +118,18 @@ section {
 @media (min-width: 510px) {
     //Undo alignment of skill-groups.
     .skill-group {
-        padding-right: 4 / 3 * $page-margin;
         width: auto;
+        &:not(:last-child) {
+            padding-right: 4 / 3 * $page-margin;
+        }
     }
 }
 
+@media (min-width: $page-width + 2 * $page-margin) {
+    h2 {
+        float: left;
+    }
+    .item {
+        margin-left: 2 * $print-margin;
+    }
+}
