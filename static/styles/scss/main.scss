@@ -102,6 +102,11 @@ section {
     }
 }
 
+#skills {
+    //fight .skill-group margin-bottom
+    margin-bottom: -$space;
+}
+
 .skill-group {
     float: left;
     width: 100%;
