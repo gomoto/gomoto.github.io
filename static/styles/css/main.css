@@ -160,7 +160,7 @@ p {
 
 /* line 62, ../scss/main.scss */
 #cv {
-  padding: 0 24px 24px;
+  padding: 24px;
   max-height: 1000000px;
   max-width: 652px;
   margin: 0 auto;
@@ -168,11 +168,10 @@ p {
 
 /* line 74, ../scss/main.scss */
 header {
-  margin-top: 16px;
   margin-bottom: -1.25em;
 }
 
-/* line 79, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 .divider {
   box-sizing: border-box;
   height: 8px;
@@ -180,17 +179,17 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-/* line 86, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 .date {
   text-align: right;
 }
 
-/* line 90, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 section {
   margin-top: 48px;
 }
 
-/* line 94, ../scss/main.scss */
+/* line 93, ../scss/main.scss */
 .item {
   *zoom: 1;
   margin-top: 16px;
@@ -201,17 +200,17 @@ section {
   display: table;
   clear: both;
 }
-/* line 100, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .item em {
   font-style: italic;
 }
 
-/* line 105, ../scss/main.scss */
+/* line 104, ../scss/main.scss */
 #skills {
   margin-bottom: -16px;
 }
 
-/* line 110, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .skill-group {
   float: left;
   width: 100%;
@@ -219,28 +218,28 @@ section {
 }
 
 @media (min-width: 350px) {
-  /* line 118, ../scss/main.scss */
+  /* line 117, ../scss/main.scss */
   .skill-group {
     width: 50%;
   }
 }
 @media (min-width: 510px) {
-  /* line 125, ../scss/main.scss */
+  /* line 124, ../scss/main.scss */
   .skill-group {
     width: auto;
   }
-  /* line 127, ../scss/main.scss */
+  /* line 126, ../scss/main.scss */
   .skill-group:not(:last-child) {
     padding-right: 32px;
   }
 }
 @media (min-width: 700px) {
-  /* line 134, ../scss/main.scss */
+  /* line 133, ../scss/main.scss */
   h2 {
     float: left;
   }
 
-  /* line 137, ../scss/main.scss */
+  /* line 136, ../scss/main.scss */
   .item {
     margin-left: 112px;
   }
