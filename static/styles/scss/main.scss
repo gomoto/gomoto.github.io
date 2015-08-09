@@ -2,14 +2,9 @@
 @include global-reset;
 
 @import 'color';
+@import 'dimension';
 @import 'font';
 @import 'fonts/franklin';
-
-$space: 16px;
-$print-width: 764px;
-$print-margin: 56px;
-$page-width: $print-width - 2 * $print-margin;
-$page-margin: 24px;
 
 body {
     font-family: Franklin;
@@ -62,7 +57,6 @@ a {
     color: inherit;
     cursor: pointer;
 }
-
 
 #cv {
     padding: $page-margin;
@@ -118,15 +112,17 @@ section {
 }
 
 @media (min-width: 350px) {
-    //Align skill-groups in a grid, two per row.
+    //2 skill groups per row
     .skill-group {
+        //Align skill-groups in a grid
         width: 50%;
     }
 }
 
-@media (min-width: 510px) {
-    //Undo alignment of skill-groups.
+@media (min-width: 490px) {
+    //3 skill groups per row
     .skill-group {
+        //Undo alignment of skill-groups
         width: auto;
         &:not(:last-child) {
             padding-right: 4 / 3 * $page-margin;
@@ -134,7 +130,7 @@ section {
     }
 }
 
-@media (min-width: $page-width + 2 * $page-margin) {
+@media (min-width: 600px) {//$page-width + 2 * $page-margin) {
     h2 {
         float: left;
     }

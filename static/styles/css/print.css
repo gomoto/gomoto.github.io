@@ -1,0 +1,14 @@
+/* line 3, ../scss/print.scss */
+#cv {
+  padding: 0;
+}
+
+/* line 8, ../scss/print.scss */
+h2 {
+  float: left;
+}
+
+/* line 11, ../scss/print.scss */
+.item {
+  margin-left: 112px;
+}

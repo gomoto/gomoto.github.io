@@ -1,0 +1,13 @@
+@import 'dimension';
+
+#cv {
+    padding: 0;
+}
+
+//Force left column
+h2 {
+    float: left;
+}
+.item {
+    margin-left: 2 * $print-margin;
+}

@@ -105,7 +105,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-style: normal;
   font-weight: 500;
 }
-/* line 14, ../scss/main.scss */
+/* line 9, ../scss/main.scss */
 body {
   font-family: Franklin;
   font-size: 16px;
@@ -115,7 +115,7 @@ body {
   background-color: #ffffff;
 }
 
-/* line 23, ../scss/main.scss */
+/* line 18, ../scss/main.scss */
 h1 {
   font-family: Franklin-Condensed;
   font-size: 2.125em;
@@ -123,7 +123,7 @@ h1 {
   font-weight: 500;
 }
 
-/* line 30, ../scss/main.scss */
+/* line 25, ../scss/main.scss */
 h2 {
   font-family: Franklin-Condensed;
   font-size: 1em;
@@ -132,40 +132,40 @@ h2 {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 38, ../scss/main.scss */
+/* line 33, ../scss/main.scss */
 h3 {
   font-size: 1em;
   line-height: 1.5;
   color: #0D47A1;
 }
 
-/* line 44, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 h4 {
   font-size: 0.875em;
   line-height: 1.42857;
   font-weight: 500;
 }
 
-/* line 50, ../scss/main.scss */
+/* line 45, ../scss/main.scss */
 h5 {
   font-size: 0.875em;
   line-height: 1.42857;
 }
 
-/* line 55, ../scss/main.scss */
+/* line 50, ../scss/main.scss */
 p {
   font-size: 0.875em;
   line-height: 1.42857;
 }
 
-/* line 60, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
 }
 
-/* line 67, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 #cv {
   padding: 24px;
   max-height: 1000000px;
@@ -173,12 +173,12 @@ a {
   margin: 0 auto;
 }
 
-/* line 79, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 header {
   margin-bottom: -1.25em;
 }
 
-/* line 83, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .divider {
   box-sizing: border-box;
   height: 8px;
@@ -186,17 +186,17 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-/* line 90, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .date {
   text-align: right;
 }
 
-/* line 94, ../scss/main.scss */
+/* line 88, ../scss/main.scss */
 section {
   margin-top: 48px;
 }
 
-/* line 98, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 .item {
   *zoom: 1;
   margin-top: 16px;
@@ -207,17 +207,17 @@ section {
   display: table;
   clear: both;
 }
-/* line 104, ../scss/main.scss */
+/* line 98, ../scss/main.scss */
 .item em {
   font-style: italic;
 }
 
-/* line 109, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 #skills {
   margin-bottom: -16px;
 }
 
-/* line 114, ../scss/main.scss */
+/* line 108, ../scss/main.scss */
 .skill-group {
   float: left;
   width: 100%;
@@ -225,28 +225,28 @@ section {
 }
 
 @media (min-width: 350px) {
-  /* line 122, ../scss/main.scss */
+  /* line 116, ../scss/main.scss */
   .skill-group {
     width: 50%;
   }
 }
-@media (min-width: 510px) {
-  /* line 129, ../scss/main.scss */
+@media (min-width: 490px) {
+  /* line 124, ../scss/main.scss */
   .skill-group {
     width: auto;
   }
-  /* line 131, ../scss/main.scss */
+  /* line 127, ../scss/main.scss */
   .skill-group:not(:last-child) {
     padding-right: 32px;
   }
 }
-@media (min-width: 700px) {
-  /* line 138, ../scss/main.scss */
+@media (min-width: 600px) {
+  /* line 134, ../scss/main.scss */
   h2 {
     float: left;
   }
 
-  /* line 141, ../scss/main.scss */
+  /* line 137, ../scss/main.scss */
   .item {
     margin-left: 112px;
   }
