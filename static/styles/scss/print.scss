@@ -1,4 +1,5 @@
 @import 'dimension';
+@import 'font';
 
 #cv {
     padding: 0;
@@ -10,4 +11,16 @@ h2 {
 }
 .item {
     margin-left: 2 * $print-margin;
+}
+
+//Add this class to an `a` element 
+//to show link URLs when printing.
+//The link shown is the value of 
+//the data-link attribute.
+.print-link {
+    &:after {
+        content: " (" attr(data-link) ") ";
+        font-size: $font-size-small;
+        margin-left: $space / 4;
+    }
 }

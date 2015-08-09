@@ -1,14 +1,21 @@
-/* line 3, ../scss/print.scss */
+/* line 4, ../scss/print.scss */
 #cv {
   padding: 0;
 }
 
-/* line 8, ../scss/print.scss */
+/* line 9, ../scss/print.scss */
 h2 {
   float: left;
 }
 
-/* line 11, ../scss/print.scss */
+/* line 12, ../scss/print.scss */
 .item {
   margin-left: 112px;
+}
+
+/* line 21, ../scss/print.scss */
+.print-link:after {
+  content: " (" attr(data-link) ") ";
+  font-size: 0.875em;
+  margin-left: 4px;
 }
