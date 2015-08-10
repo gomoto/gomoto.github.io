@@ -160,12 +160,22 @@ p {
 
 /* line 55, ../scss/main.scss */
 a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  border-radius: 0.125em;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+/* line 63, ../scss/main.scss */
+a:hover {
+  background: #F3F3FB;
 }
 
-/* line 61, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 #cv {
   padding: 24px;
   max-height: 1000000px;
@@ -173,12 +183,12 @@ a {
   margin: 0 auto;
 }
 
-/* line 73, ../scss/main.scss */
+/* line 80, ../scss/main.scss */
 header {
   margin-bottom: -1.25em;
 }
 
-/* line 77, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .divider {
   box-sizing: border-box;
   height: 8px;
@@ -186,17 +196,17 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-/* line 84, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .date {
   text-align: right;
 }
 
-/* line 88, ../scss/main.scss */
+/* line 95, ../scss/main.scss */
 section {
   margin-top: 48px;
 }
 
-/* line 92, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .item {
   *zoom: 1;
   margin-top: 16px;
@@ -207,17 +217,17 @@ section {
   display: table;
   clear: both;
 }
-/* line 98, ../scss/main.scss */
+/* line 105, ../scss/main.scss */
 .item em {
   font-style: italic;
 }
 
-/* line 103, ../scss/main.scss */
+/* line 110, ../scss/main.scss */
 #skills {
   margin-bottom: -16px;
 }
 
-/* line 108, ../scss/main.scss */
+/* line 115, ../scss/main.scss */
 .skill-group {
   float: left;
   width: 100%;
@@ -225,28 +235,28 @@ section {
 }
 
 @media (min-width: 350px) {
-  /* line 116, ../scss/main.scss */
+  /* line 123, ../scss/main.scss */
   .skill-group {
     width: 50%;
   }
 }
 @media (min-width: 490px) {
-  /* line 124, ../scss/main.scss */
+  /* line 131, ../scss/main.scss */
   .skill-group {
     width: auto;
   }
-  /* line 127, ../scss/main.scss */
+  /* line 134, ../scss/main.scss */
   .skill-group:not(:last-child) {
     padding-right: 32px;
   }
 }
 @media (min-width: 600px) {
-  /* line 134, ../scss/main.scss */
+  /* line 141, ../scss/main.scss */
   h2 {
     float: left;
   }
 
-  /* line 137, ../scss/main.scss */
+  /* line 144, ../scss/main.scss */
   .item {
     margin-left: 112px;
   }
